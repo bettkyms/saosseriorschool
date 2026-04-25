@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --color-navy: #003399;
+  --color-sky: #87CEEB;
+  --color-maroon: #A82222;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+}
+
+.navy-bg {
+  background-color: #003399;
+}
+
+.sky-text {
+  color: #87CEEB;
+}
+
+.maroon-text {
+  color: #A82222;
+}
+
+.bg-maroon {
+  background-color: #A82222;
+}
+
+.border-navy {
+  border-color: #003399;
+}
+
+.border-maroon {
+  border-color: #A82222;
+}
+
+.bg-sky-light {
+  background-color: rgba(135,206,235,0.1);
+}
